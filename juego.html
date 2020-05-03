@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width= device-width, initial-scale= 1">
     <title>Dany Dice</title>
     <style>
       body {
@@ -81,6 +82,33 @@
 
       .hide {
         display: none;
+      }
+      @media screen and (max-width: 400px){
+        .btn-start {
+        width: 200px;
+        height: 50px;
+        background: #ecf0f1;
+        color: #2c3e50;
+        font-size: 1.4rem;
+        position: absolute;
+        top: calc(50% - 25px);
+        left: calc(50% - 103px);
+      }
+    }
+        
+      @media screen and (max-width: 280px){
+        .gameboard {
+        max-height: 40vh;
+        max-width: 40vh;
+      }
+      width: 200px;
+    height: 50px;
+    background: #ecf0f1;
+    color: #2c3e50;
+    font-size: 1.4rem;
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 103px);
       }
     </style>
   </head>
